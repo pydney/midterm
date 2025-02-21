@@ -2,7 +2,6 @@ body {
   font-family: Vesper Libre ;
   line-height: 1.5 ;
   margin: 0 ;
-  background-color: #1a1a1a ;
 }
 
 header, footer {
@@ -39,7 +38,7 @@ h1 {
   border-bottom: 2px solid #ff3530;
 }
   
-figcaption, .category-news, h2, .author, .date {
+figcaption, .category-news, .subtitle, .author, .date, h2 {
   font-family: 'Open Sans', sans-serif;
 }
   
@@ -59,17 +58,17 @@ figcaption {
   font-style: italic;
 }
   
-.nominees {
+ul {
   list-style: none;
   padding-left: 0;
 }
   
-.nominees a {
+a {
   color: #1a1a1a;
   text-decoration: underline;
 }
   
-.nominees a:hover {
+a:hover {
   text-decoration: none;
   color: #ff3530;
   }
